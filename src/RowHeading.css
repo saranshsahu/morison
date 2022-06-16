@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(154, 191, 152);
+    font-family: Arial;
+    padding: 30px; 
+}
+
+.row-heading{
+    background-color:rgb(2, 71, 2);
+    color:rgb(247, 251, 247);
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+
+}
+
+.data{
+    border: 10px;
+    outline: none;
+    width: 35px;
+    height: 30px;
+}
+
+.row-data{
+    display: flex;
+    flex-direction: column;
+}
+
+#morrison-supermarket {
+    object-fit: contain;
+    object-position: 10px;
+    /* padding-bottom: 5px; */
+    width: 100%;
+    height: 100px;
+} 
+
+#tcs-logo {
+    object-fit: contain;
+    object-position: 100%;
+    /* padding-bottom: 5px; */
+
+    width: 95%;
+    height: 100px;
+} 
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.title{
+    text-align: center;
+    color:white;
+}
