@@ -1,11 +1,11 @@
 import React from 'react'
-import { rowValue } from '../rowValue'
 
 export default function RowData1() {
 return (
 <>
     <table>
-        <tr>
+        <thead>
+            <tr>
             <th> LocationCode </th>
             <th> ItemNumber </th>
             <th> MilestoneType </th>
@@ -18,14 +18,15 @@ return (
             <th> Unitsdeep </th>
             <th> Totalunit </th>
             <th> AuditType </th>
+            </tr>
+        </thead>
 
-
-        </tr>
-        <tr>
-            <th> 80 </th>
-            <th> 112577074 </th>
-            <th> L </th>
-            <th> 2372 </th>
+        <tbody>
+            <tr>
+            <th>80</th>
+            <th>112577074</th>
+            <th>L</th>
+            <th>2372</th>
             <th>2</th>
             <th>3</th>
             <th>14</th>
@@ -34,8 +35,8 @@ return (
             <th>1</th>
             <th>1</th>
             <th>2</th>
-        </tr>
-        <tr>
+            </tr>
+            <tr>
             <th> 80 </th>
             <th> 112395334 </th>
             <th> L </th>
@@ -48,7 +49,8 @@ return (
             <th>1</th>
             <th>1</th>
             <th>2</th>
-        </tr>
+            </tr>
+        </tbody>
     </table>    
 </>
 )
